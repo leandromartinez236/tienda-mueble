@@ -1,6 +1,20 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(57, 141, 210);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(34, 180, 225);
+}
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1º Hack para que 1rem = 10px */
+  scroll-behavior: smooth;
 }
 
 *,
@@ -10,7 +24,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.6rem; /* 2º Hack para la base sea de 16px */
   line-height: 2; /* Separación entre los párrafos de un texto */
 }
@@ -20,7 +34,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin: 0 0 2rem 0;
 }
 
