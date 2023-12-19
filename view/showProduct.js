@@ -1,6 +1,3 @@
-// showProducts.js debe tener una función con el mismo nombre 
-// que se encargue de renderizar el array de productos creados en productModel.js
-// y mostrarlo en la sección correspondiente del html
 
 export function showProducts(productos) {
   const template = document.getElementById('producto')
@@ -17,6 +14,6 @@ export function showProducts(productos) {
     precio.innerText = product.price
     const btn = clone.querySelector('a.btn')
     const listadoProductos = document.querySelector('div.listado-productos')
-    listadoProductos.appendChild(clone)  
+    listadoProductos.appendChild(clone)
   })
 }

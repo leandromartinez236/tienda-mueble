@@ -1,6 +1,3 @@
-// En productModel.js deben crear un array con 6 productos.
-// Cada producto será un objeto que tenga name, description, image, price.
-// Recordá que ambos arrays deben ser accesibles desde otra parte así que utilizar la palabra export
 export const productos = [
   {
     name: "Producto 1",
